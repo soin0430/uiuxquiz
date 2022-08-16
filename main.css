@@ -1,0 +1,101 @@
+/* CSS files add styling rules to your content */
+
+body {
+    margin: 3em;
+  text-align: left;
+  background: #3d3d3d;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.body img{
+  width: 50%;
+  padding-bottom: 50px;
+}
+
+.body p {
+     position: left;
+  top: 18px;
+  left: 10px;
+}
+
+.body h3 {
+     position: relative;
+  top: 18px;
+  left: 10px;
+}
+
+
+.header img {
+  float: left;
+  width: 60%;
+  padding-bottom: 30px;
+  
+}
+
+.header{
+      text-align: relative;
+
+}
+
+.header h1 {
+  position: relative;
+  top: 18px;
+  left: 10px;
+}
+
+
+.section{
+  padding-top: 96px;
+  padding-bottom: 20px;
+}
+
+.card {
+  padding-right: 30px;
+    padding-left: 30px;
+  
+    
+}
+
+.column {
+  float: left;
+    
+  width: 50%;
+  padding-bottom: 50px;
+  padding-left: 50px;
+}
+
+.footer{
+      float: left;
+    position: relative;
+     
+  width: 50%;
+    padding-bottom: 50px;
+  padding-left: 50px;
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.row2 {
+    position: relative;
+    
+}
+
+@media screen and (max-width: 800px) {
+  .column {
+    width: 50%;
+      padding-bottom: 50px;
+  }
+ 
+}
+  @media screen and (max-width: 800px) {
+  ul. li.right, 
+  ul. li {float: none;}
+}
+
+box-sizing: content-box;
+width: 100%;
